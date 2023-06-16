@@ -1,0 +1,53 @@
+<mat-toolbar  class="mat-elevation-z6 true">
+  <span>{{dialogHeader}}</span>
+</mat-toolbar>
+<div class="container">
+<form [formGroup]="form">
+  <mat-form-field appearance="outline">
+    <mat-label>Konut İsim</mat-label>
+    <input matInput placeholder="EstateName" name="EstateName" formControlName="EstateName" required type="text">
+  </mat-form-field>
+  <mat-form-field appearance="outline">
+    <mat-label>Fiyat</mat-label>
+    <input matInput placeholder="EstatePrice" name="EstatePrice" formControlName="EstatePrice" required type="text">
+  </mat-form-field>
+  <mat-form-field appearance="outline">
+    <mat-label>Indirim Fiyat</mat-label>
+    <input matInput placeholder="DiscountPrice" name="DiscountPrice" formControlName="DiscountPrice" required type="text">
+  </mat-form-field>
+  <mat-form-field appearance="outline">
+    <mat-label>Aktif Mi?</mat-label>
+    <mat-select formControlName="IsActive" name="IsActive" required>
+      <mat-option [value]="1">Evet</mat-option>
+      <mat-option [value]="0">Hayır</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field appearance="outline">
+    <mat-label>İndirim Aktif mi?</mat-label>
+    <mat-select formControlName="IsDiscount" name="IsDiscount" required>
+      <mat-option [value]="1">Evet</mat-option>
+      <mat-option [value]="0">Hayır</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field appearance="outline">
+    <mat-label>Bölge</mat-label>
+    <mat-select formControlName="EstateLocationId" name="EstateLocationId" required>
+      <mat-option *ngFor="let location of activeLocations" [value]="location.LocationName">
+        {{ location.LocationName }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field appearance="outline">
+    <mat-label>Adress</mat-label>
+    <input matInput placeholder="EstateAdress" name="EstateAdress" formControlName="EstateAdress" required type="text">
+  </mat-form-field>
+  <mat-form-field appearance="outline">
+    <mat-label>Açıklama</mat-label>
+    <input matInput placeholder="EstateDescription" name="EstateDescription" formControlName="EstateDescription" required type="text">
+  </mat-form-field>
+
+</form>
+
+<button mat-raised-button class="true" (click)="DialogRef.close(form.value)" [disabled]="form.invalid">kaydet</button>&nbsp;
+<button mat-raised-button class="false" (click)="DialogRef.close()">iptal</button>
+</div>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DBModelStoreContainer" CdmEntityContainer="DBEntities10">
+    <EntitySetMapping Name="Banner">
+      <EntityTypeMapping TypeName="DBModel.Banner">
+        <MappingFragment StoreEntitySet="Banner">
+          <ScalarProperty Name="BannerId" ColumnName="BannerId" />
+          <ScalarProperty Name="BannerEstateId" ColumnName="BannerEstateId" />
+          <ScalarProperty Name="BannerUserId" ColumnName="BannerUserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Estate">
+      <EntityTypeMapping TypeName="DBModel.Estate">
+        <MappingFragment StoreEntitySet="Estate">
+          <ScalarProperty Name="EstateIMG4" ColumnName="EstateIMG4" />
+          <ScalarProperty Name="EstateIMG3" ColumnName="EstateIMG3" />
+          <ScalarProperty Name="EstateIMG2" ColumnName="EstateIMG2" />
+          <ScalarProperty Name="EstateIMG1" ColumnName="EstateIMG1" />
+          <ScalarProperty Name="EstateId" ColumnName="EstateId" />
+          <ScalarProperty Name="EstateName" ColumnName="EstateName" />
+          <ScalarProperty Name="EstatePrice" ColumnName="EstatePrice" />
+          <ScalarProperty Name="DiscountPrice" ColumnName="DiscountPrice" />
+          <ScalarProperty Name="Clicks" ColumnName="Clicks" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="IsDiscount" ColumnName="IsDiscount" />
+          <ScalarProperty Name="EstateAdress" ColumnName="EstateAdress" />
+          <ScalarProperty Name="EstateDescription" ColumnName="EstateDescription" />
+          <ScalarProperty Name="EstateLocationId" ColumnName="EstateLocationId" />
+          <ScalarProperty Name="EstateRegDate" ColumnName="EstateRegDate" />
+          <ScalarProperty Name="EstateEditDate" ColumnName="EstateEditDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Location">
+      <EntityTypeMapping TypeName="DBModel.Location">
+        <MappingFragment StoreEntitySet="Location">
+          <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+          <ScalarProperty Name="LocationName" ColumnName="LocationName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User">
+      <EntityTypeMapping TypeName="DBModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserFullName" ColumnName="UserFullName" />
+          <ScalarProperty Name="UserIsAdmin" ColumnName="UserIsAdmin" />
+          <ScalarProperty Name="UserRegDate" ColumnName="UserRegDate" />
+          <ScalarProperty Name="UserMail" ColumnName="UserMail" />
+          <ScalarProperty Name="UserPassword" ColumnName="UserPassword" />
+          <ScalarProperty Name="UserProfileIMG" ColumnName="UserProfileIMG" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

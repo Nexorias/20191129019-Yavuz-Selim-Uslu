@@ -1,0 +1,18 @@
+.true {
+  color: white;
+  background-color: rgb(0, 0, 0);
+
+
+}
+.false {
+  color: white;
+  background-color: rgb(247, 78, 78);
+
+
+}
+.discount{
+  color: rgb(50, 105, 50);
+}
+.nodiscount{
+ color: brown;
+}

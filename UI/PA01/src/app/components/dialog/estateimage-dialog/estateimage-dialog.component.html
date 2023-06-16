@@ -1,0 +1,36 @@
+<mat-toolbar  class="mat-elevazation-z6 true">
+  <span>Resim Güncelle</span>
+  </mat-toolbar>
+  <div class="container">
+  <div *ngIf="this.SelectedEstate">
+    <h3><b>Konut İsmi:</b> {{this.SelectedEstate.EstateName}}  Seçili Resim: <b>{{this.selectOrder}}</b><p></p></h3>
+    <img [src]="this.API.siteURL+'/media/'+this.SelectedEstate.EstateIMG1"  *ngIf="this.selectOrder == '1'" style="width:200px;" (click)="img.click()">
+    <img [src]="this.API.siteURL+'/media/'+this.SelectedEstate.EstateIMG2"  *ngIf="this.selectOrder == '2'" style="width:200px;" (click)="img.click()">
+    <img [src]="this.API.siteURL+'/media/'+this.SelectedEstate.EstateIMG3"  *ngIf="this.selectOrder == '3'" style="width:200px;" (click)="img.click()">
+    <img [src]="this.API.siteURL+'/media/'+this.SelectedEstate.EstateIMG4"  *ngIf="this.selectOrder == '4'" style="width:200px;" (click)="img.click()">
+
+  </div>
+    <input type="file" #img [hidden]="true" onclick="this.value=null"  (change)="PicImage($event,selectOrder)">
+    <div class="color-choose">
+      <input type="radio" name="color" id="order1" value="1"  [(ngModel)]="selectOrder" checked>
+      <label  for="order1">1</label>
+
+      <input type="radio" name="color" id="order2" value="2" [(ngModel)]="selectOrder">
+      <label for="order2">2</label>
+
+      <input type="radio" name="color" id="order3" value="3" [(ngModel)]="selectOrder">
+      <label for="order3">3</label>
+
+      <input type="radio" name="color" id="order4" value="4" [(ngModel)]="selectOrder">
+      <label for="order4">4</label>
+    </div>
+
+  <img [src]="this.SelectedImage" *ngIf="this.SelectedImage" style="width:200px;" />
+
+  <p></p>
+  <button mat-raised-button color="secondary"(click)="img.click()">Resim Seç</button>&nbsp;
+  <button mat-raised-button class="true" (click)="imgDialogRef.close(this.UserImg)">Kaydet</button>&nbsp;
+  <button mat-raised-button class="false" (click)="imgDialogRef.close()">İptal</button>
+
+
+  </div>

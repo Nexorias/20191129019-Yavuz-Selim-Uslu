@@ -1,0 +1,96 @@
+<div class="container">
+  <p>&nbsp;</p>
+<h1>&nbsp;&nbsp;Kullanıcılar</h1>
+
+<div>
+  <mat-form-field appearance="outline" style="width:100%;">
+    <input matInput placeholder="Aranacak Değer Giriniz" (keyup)="filter($event)">
+  </mat-form-field>
+</div>
+&nbsp;
+<button mat-fab class="buttoncolor"  matTooltip = "geri dön" [routerLink]="['/admin']">
+  <mat-icon aria-label="label">arrow_back</mat-icon>
+  </button>
+  &nbsp;
+<button mat-fab matTooltip="Kullanıcı Ekle" class="buttoncolor" (click)="add()">
+<mat-icon aria-label="label">add</mat-icon>
+</button>
+<p>&nbsp;</p>
+
+
+
+<mat-table [dataSource]="dataSource" matSort class="mat-elevation-z8">
+  <ng-container  matColumnDef="UserProfileIMG" >
+    <mat-header-cell *matHeaderCellDef mat-sort-header>
+      Resim
+    </mat-header-cell>
+    <mat-cell *matCellDef="let entry">
+
+      <img [src]="this.API.siteURL+'/media/'+entry.UserProfileIMG" style="width:50px;" matTooltip="Fotoğraf Güncellemek için tıklayınız" (click)="UpdateFoto(entry)"/>
+
+    </mat-cell>
+  </ng-container>
+    <ng-container  matColumnDef="UserFullName" >
+      <mat-header-cell *matHeaderCellDef mat-sort-header>
+        Kullanıcı
+      </mat-header-cell>
+      <mat-cell *matCellDef="let entry"> {{entry.UserFullName}}</mat-cell>
+    </ng-container>
+
+    <ng-container  matColumnDef="UserMail">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>
+        Mail
+      </mat-header-cell>
+      <mat-cell *matCellDef="let entry"> {{entry.UserMail}}</mat-cell>
+    </ng-container>
+    <ng-container  matColumnDef="UserIsAdmin">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>
+        Admin
+      </mat-header-cell>
+      <mat-cell *matCellDef="let entry" >
+        <ng-container *ngIf="entry.UserIsAdmin === '1'; else notAdmin">
+          <p class="true">Evet</p>
+        </ng-container>
+
+        <ng-template #notAdmin>
+          <p class="false"><b>Hayır</b></p>
+        </ng-template>
+      </mat-cell>
+    </ng-container>
+    <ng-container  matColumnDef="UserRegDate">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>
+        Kayıt Tarihi
+      </mat-header-cell>
+      <mat-cell *matCellDef="let entry"> {{entry.UserRegDate}}</mat-cell>
+    </ng-container>
+    <ng-container  matColumnDef="UserEstateAmount">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>
+        ilan sayısı
+      </mat-header-cell>
+      <mat-cell *matCellDef="let entry"> {{entry.UserEstateAmount}}</mat-cell>
+    </ng-container>
+    <ng-container  matColumnDef="actions">
+      <mat-header-cell *matHeaderCellDef >
+        islemler
+      </mat-header-cell>
+      <mat-cell *matCellDef="let entry">
+
+      <button mat-icon-button matTooltip="ilanları görüntüle" [routerLink]="['/listestates',entry.UserId]">
+        <mat-icon aria-label="label" class="givecolordisplay">article</mat-icon>
+      </button>
+      <button mat-icon-button matTooltip="Kullanıcı Düzenle" (click)="edit(entry)">
+        <mat-icon aria-label="label" class="givecolordedit">edit</mat-icon>
+      </button>
+      <button mat-icon-button matTooltip="Kullanıcı sil" (click)="deleteuser(entry)">
+        <mat-icon aria-label="label" color="warn" >delete</mat-icon>
+      </button>
+    </mat-cell>
+    </ng-container>
+  <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+  <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+
+  </mat-table>
+<mat-paginator [pageSizeOptions]="[10,25,50,100,500]" showFirstLastButtons></mat-paginator>
+
+</div>
+

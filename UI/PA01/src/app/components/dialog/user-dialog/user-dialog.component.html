@@ -1,0 +1,28 @@
+<mat-toolbar class="true">
+    <span>{{DialogHeader}}</span>
+</mat-toolbar>
+<div class="container">
+<form [formGroup]="form">
+  <mat-form-field appearance="outline">
+    <mat-label>Full Name</mat-label>
+    <input matInput placeholder="john doe" formControlName ="UserFullName" name="UserFullName" required type="text">
+  </mat-form-field>
+  <mat-form-field appearance="outline">
+    <mat-label>User Mail</mat-label>
+    <input matInput placeholder="123@mail.com" formControlName ="UserMail" name="UserMail" required type="text">
+  </mat-form-field>
+  <mat-form-field appearance="outline">
+    <mat-label>User Password</mat-label>
+    <input matInput placeholder="123x" formControlName ="UserPassword" name="UserPassword" required type="text">
+  </mat-form-field>
+  <mat-form-field appearance="outline">
+    <mat-label>Yönetici Yetkisi</mat-label>
+    <mat-select formControlName="UserIsAdmin" name="UserIsAdmin" required>
+      <mat-option [value]="1">Admin</mat-option>
+      <mat-option [value]="0">Üye</mat-option>
+    </mat-select>
+  </mat-form-field>
+</form>
+<button mat-raised-button class="true" (click)="DialogRef.close(form.value)" [disabled]="form.invalid">kaydet</button>&nbsp;
+<button mat-raised-button class="false" (click)="DialogRef.close()">iptal</button>
+</div>

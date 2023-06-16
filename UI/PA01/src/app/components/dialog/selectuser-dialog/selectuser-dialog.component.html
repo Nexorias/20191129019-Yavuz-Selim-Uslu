@@ -1,0 +1,76 @@
+<mat-toolbar   class="mat-elevation-z6 true">
+  <span>Kullanıcı Seçin</span>
+</mat-toolbar>
+
+<div class="container">
+  <p>&nbsp;</p>
+<h1>&nbsp;&nbsp;Kullanıcılar</h1>
+
+<div>
+  <mat-form-field appearance="outline" style="width:100%;">
+    <input matInput placeholder="Aranacak Değer Giriniz" (keyup)="filter($event)">
+  </mat-form-field>
+</div>
+&nbsp;
+<p>&nbsp;</p>
+
+
+
+<mat-table [dataSource]="dataSource" matSort class="mat-elevation-z8">
+  <ng-container  matColumnDef="UserProfileIMG" >
+    <mat-header-cell *matHeaderCellDef mat-sort-header>
+      Resim
+    </mat-header-cell>
+    <mat-cell *matCellDef="let entry">
+
+      <img [src]="this.API.siteURL+'/media/'+entry.UserProfileIMG" style="width:45px;" />
+
+    </mat-cell>
+  </ng-container>
+    <ng-container  matColumnDef="UserFullName" >
+      <mat-header-cell *matHeaderCellDef mat-sort-header>
+        Kullanıcı
+      </mat-header-cell>
+      <mat-cell *matCellDef="let entry"> {{entry.UserFullName}}</mat-cell>
+    </ng-container>
+
+    <ng-container  matColumnDef="UserMail">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>
+        Mail
+      </mat-header-cell>
+      <mat-cell *matCellDef="let entry"> {{entry.UserMail}}</mat-cell>
+    </ng-container>
+
+    <ng-container  matColumnDef="UserRegDate">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>
+        Kayıt Tarihi
+      </mat-header-cell>
+      <mat-cell *matCellDef="let entry"> {{entry.UserRegDate}}</mat-cell>
+    </ng-container>
+    <ng-container  matColumnDef="UserEstateAmount">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>
+        ilan sayısı
+      </mat-header-cell>
+      <mat-cell *matCellDef="let entry"> {{entry.UserEstateAmount}}</mat-cell>
+    </ng-container>
+    <ng-container  matColumnDef="actions">
+      <mat-header-cell *matHeaderCellDef >
+        islemler
+      </mat-header-cell>
+      <mat-cell *matCellDef="let entry">
+
+
+      <button mat-icon-button matTooltip="Kullanıcıyı ekle" (click)="selectUser(entry)">
+        <mat-icon aria-label="label" class="text2" >person_add</mat-icon>
+      </button>
+
+    </mat-cell>
+    </ng-container>
+  <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+  <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+
+  </mat-table>
+<mat-paginator [pageSizeOptions]="[5,10]" showFirstLastButtons></mat-paginator>
+
+</div>
+

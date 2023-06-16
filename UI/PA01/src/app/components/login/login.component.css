@@ -1,0 +1,9 @@
+.btncolor {
+  color: white;
+  background-color:grey;
+  align-items: center;
+  align-self: center;
+  position: fixed;
+  text-align: center;
+
+}

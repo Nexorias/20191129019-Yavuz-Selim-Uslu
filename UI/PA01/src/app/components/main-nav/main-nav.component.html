@@ -1,0 +1,69 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport
+      [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+      [mode]="(isHandset$ | async) ? 'over' : 'side'"
+      [opened]="(isHandset$ | async) === true">
+    <mat-toolbar (click)="drawer.toggle()"> <mat-icon aria-label="Side nav toggle icon">menu</mat-icon></mat-toolbar>
+
+    <mat-nav-list>
+      <a mat-list-item [routerLink]="['/']">Anasayfa</a>
+      <a mat-menu-item [routerLink]="['/admin']"  *ngIf="API.CheckLocalAdmin()"><b>Yönetici Paneli</b></a>
+      <a mat-menu-item [routerLink]="['/shop']">Konutlar</a>
+
+       <a mat-list-item [routerLink]="['/userpage']" *ngIf="API.checkToken()">
+        Kullanıcı Profili</a>
+      <!-- <a mat-list-item [routerLink]="['/login']" *ngIf="!API.checkToken()">Giriş Yap</a> -->
+      <!--<a mat-list-item [routerLink]="['/userpage']" *ngIf="API.checkToken()" (click)="logout()">Çıkış Yap</a> -->
+
+
+
+    </mat-nav-list>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <mat-toolbar  class="mat-elevation-z8 w3-bar w3-white w3-wide w3-padding w3-card" style="display: flex; align-items: right; justify-content: right;">
+      <button  mat-button [routerLink]="['/']" ><b>MURAT</b> Emlak</button>
+      <button
+        type="button"
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        (click)="drawer.toggle()"
+        *ngIf="isHandset$ | async">
+        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+      </button>
+      <span class="spacer"></span>
+      <span class="example-spacer"></span>
+      <button  mat-button [routerLink]="['/shop']" matTooltip="Konutlara Göz atın">
+        <mat-icon class="icon-display" aria-label="Side nav toggle icon">home</mat-icon>
+      </button>
+      <button  mat-button [routerLink]="['/userpage']" *ngIf="API.checkToken()" matTooltip="Profile Gidin">
+        <mat-icon class="icon-display" aria-label="Side nav toggle icon">person</mat-icon>
+      </button>
+
+      <button mat-button [routerLink]="['/login']" *ngIf="!API.checkToken()">Giriş Yap</button>
+
+      <button mat-button [matMenuTriggerFor]="menu" matTooltip="Admin Menu"  *ngIf="API.CheckLocalAdmin()">
+        <mat-icon class="icon-display" >admin_panel_settings</mat-icon>
+        </button>
+       <button mat-button [routerLink]="['/']" *ngIf="API.checkToken()" (click)="logout()">Çıkış Yap</button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item [routerLink]="['/admin']">Yönetici Paneli</button>
+
+        <button mat-menu-item [routerLink]="['/users']">Kullanıcılar</button>
+        <button mat-menu-item [matMenuTriggerFor]="altmenu">
+          Emlak
+        </button>
+        <mat-menu #altmenu="matMenu">
+          <button mat-menu-item [routerLink]="['/estates']">Konutlar</button>
+          <button mat-menu-item [routerLink]="['/locations']">Bölgeler</button>
+        </mat-menu>
+
+      </mat-menu>
+
+    </mat-toolbar>
+    <!-- Add Content Here -->
+
+    <router-outlet></router-outlet>
+
+  </mat-sidenav-content>
+</mat-sidenav-container>

@@ -1,0 +1,87 @@
+<div class="container">
+  <h1>Kullanıcı Konutları</h1>
+ <h3><b>Kullanıcı Id: {{this.SavedUserId}}</b></h3>
+ <h3><b>Username: {{this.SavedUserName}}</b></h3>
+<button mat-fab class="true"  matTooltip = "geri dön" [routerLink]="['/users']">
+<mat-icon aria-label="label">arrow_back</mat-icon>
+
+</button>
+&nbsp;
+<button mat-fab class="true" matTooltip="ekle" (click)="save()">
+  <mat-icon aria-label="label">add</mat-icon>
+</button>
+<p>&nbsp;</p>
+<mat-form-field appearance="outline" style="width:50%;">
+  <mat-label> Seç </mat-label>
+  <mat-select placeholder="Seç" (selectionChange)="SelectEstate($event.value)" >
+    <mat-option  [value]="estate.EstateId" *ngFor="let estate of Estates">{{estate.EstateName}}
+    </mat-option>
+  </mat-select>
+
+</mat-form-field>
+
+<div class="center-1">
+  <h3 style="color:red;"  *ngIf="Banners?.length==0"> Konut eklenmedi</h3>
+</div>
+&nbsp;
+
+<mat-table [dataSource]="dataSource" matSort>
+  <ng-container  matColumnDef="EstateIMG1" >
+    <mat-header-cell *matHeaderCellDef mat-sort-header>
+      Resim
+    </mat-header-cell>
+    <mat-cell *matCellDef="let entry">
+
+      <img [src]="this.API.siteURL+'/media/'+entry.EstateInfo.EstateIMG1" style="width:50px;"/>
+
+    </mat-cell>
+  </ng-container>
+  <ng-container matColumnDef="EstateName">
+    <mat-header-cell *matHeaderCellDef mat-sort-header> Ev
+    </mat-header-cell>
+      <mat-cell *matCellDef="let entry">{{entry.EstateInfo.EstateName}}</mat-cell>
+  </ng-container>
+  <ng-container matColumnDef="EstateAdress">
+    <mat-header-cell *matHeaderCellDef mat-sort-header> Adres
+    </mat-header-cell>
+      <mat-cell *matCellDef="let entry">{{entry.EstateInfo.EstateAdress}}</mat-cell>
+  </ng-container>
+  <ng-container matColumnDef="EstateLocation">
+    <mat-header-cell *matHeaderCellDef mat-sort-header> Bölge
+    </mat-header-cell>
+      <mat-cell *matCellDef="let entry">{{entry.EstateInfo.EstateLocationId}}</mat-cell>
+  </ng-container>
+  <ng-container matColumnDef="EstatePrice">
+    <mat-header-cell *matHeaderCellDef mat-sort-header> Ücret
+    </mat-header-cell>
+    <mat-cell *matCellDef="let entry" >
+      <ng-container *ngIf="entry.EstateInfo.IsDiscount === '1'; else notAdmin">
+        <p class="discount"><s>{{entry.EstateInfo.EstatePrice}} TL</s>  {{entry.EstateInfo.DiscountPrice}} TL</p>
+      </ng-container>
+
+      <ng-template #notAdmin>
+        <p class="nodiscount"><b>{{entry.EstateInfo.EstatePrice}} TL</b></p>
+      </ng-template>
+    </mat-cell>
+
+  </ng-container>
+  <ng-container matColumnDef="islemler">
+    <mat-header-cell *matHeaderCellDef>   İşlemler
+    </mat-header-cell>
+      <mat-cell *matCellDef="let entry">
+        <button mat-icon-button matTooltip="Bu konutu sil"  (click)="deleteEntry(entry)">
+          <mat-icon aria-label="label" color="warn"  >delete</mat-icon>
+        </button>
+      </mat-cell>
+  </ng-container>
+
+<mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+<mat-row *matRowDef="let row; columns: displayedColumns"></mat-row>
+
+
+</mat-table>
+
+<mat-paginator [pageSizeOptions]="[5,10,15,20,100]" showFirstLastButtons></mat-paginator>
+
+
+</div>

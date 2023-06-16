@@ -1,0 +1,70 @@
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+<body>
+  <div class="main-content">
+    <div class="container mt-7">
+      <!-- Table -->
+      <div class="row">
+        <div class="col-xl-8 m-auto order-xl-2 mb-5 mb-xl-0">
+          <div class="card card-profile shadow">
+            <div class="row justify-content-center">
+              <div class="col-lg-3 order-lg-2">
+                <div class="card-profile-image">
+                  <a>
+                    <img [src]="this.API.siteURL+'/media/'+this.CurrentIMG" class="rounded-circle"  (click)="UpdateFoto(this.CurrentUser)">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="card-header text-center border-0 pt-8 pt-md-4 pb-0 pb-md-4">
+              <div class="d-flex justify-content-between">
+              </div>
+            </div>
+            <div class="card-body pt-0 pt-md-4">
+
+              <div class="row">
+                <div class="col">
+
+                  <div class="card-profile-stats d-flex justify-content-center mt-md-5">
+
+                    <div>
+                      <span class="heading">{{this.CurrentUser.UserEstateAmount}}</span>
+                      <span class="description">Konut</span>
+                    </div>
+                    <div>
+                      <span class="heading">{{this.CurrentUser.UserEstateAmount}}</span>
+                      <span class="description">Yorumlar</span>
+                    </div>
+                    <div>
+                      <span class="heading">{{this.CurrentUser.UserEstateAmount}}</span>
+                      <span class="description">Takipçiler</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center btncolor" >
+                <a class=" btn  btn-default"  *ngIf="API.CheckLocalAdmin()" href="/admin">Admin</a>
+                <p></p>
+                <h3>
+                  <h5><span class="font-weight-light">{{this.CurrentUser.UserId}}</span></h5>
+                  {{this.CurrentUser.UserFullName}}
+                </h3>
+                <div class="h5 font-weight-300">
+                  <i class="ni location_pin mr-2"></i>{{this.CurrentUser.UserMail}}
+                </div>
+                <div class="h5 mt-4">
+                  <i class="ni business_briefcase-24 mr-2"></i>Kayıt: {{this.CurrentUser.UserRegDate}}
+                </div>
+                <div>
+                  <i class="ni education_hat mr-2"></i>University of Computer Science
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>

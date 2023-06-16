@@ -1,0 +1,82 @@
+<div class="container">
+  <h1>Konut Bilgisi</h1>
+  <h3><b>Konut ismi:</b> {{SavedEstateName}} <b>Konut Ücreti:</b> {{SavedEstate.EstatePrice}}</h3>
+
+<button mat-fab class="true" matTooltip="Listeye geri dön" [routerLink]="['/estates']">
+  <mat-icon aria-label="label">arrow_back</mat-icon>
+</button>&nbsp;
+<button mat-fab class="true" matTooltip="Ekle" (click)="add()">
+  <mat-icon aria-label="label">person_add</mat-icon>
+</button>
+<p>&nbsp;</p>
+<div class="center-1">
+    <h3 style="color:red;"  *ngIf="banners?.length==0"> Kullanıcı eklenmedi</h3>
+</div>
+
+<mat-table [dataSource]="dataSource" matSort>
+  <ng-container  matColumnDef="UserProfileIMG" >
+    <mat-header-cell *matHeaderCellDef mat-sort-header>
+      Resim
+    </mat-header-cell>
+    <mat-cell *matCellDef="let entry">
+
+      <img [src]="this.API.siteURL+'/media/'+entry.UserInfo.UserProfileIMG" style="width:50px;"/>
+
+    </mat-cell>
+  </ng-container>
+  <ng-container matColumnDef="UserFullName">
+    <mat-header-cell *matHeaderCellDef mat-sort-header> Ev
+    </mat-header-cell>
+      <mat-cell *matCellDef="let entry">{{entry.UserInfo.UserFullName}}</mat-cell>
+
+  </ng-container>
+  <ng-container matColumnDef="UserMail">
+    <mat-header-cell *matHeaderCellDef mat-sort-header> Ücret
+    </mat-header-cell>
+      <mat-cell *matCellDef="let entry">{{entry.UserInfo.UserMail}}</mat-cell>
+      <ng-container  matColumnDef="UserIsAdmin">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>
+          Admin
+        </mat-header-cell>
+        <mat-cell *matCellDef="let entry" >
+          <ng-container *ngIf="entry.UserInfo.UserIsAdmin === '1'; else notAdmin">
+            <p class="text1"><b>Evet</b></p>
+          </ng-container>
+
+          <ng-template #notAdmin>
+            <p class="text2">Hayır</p>
+          </ng-template>
+        </mat-cell>
+      </ng-container>
+      <ng-container  matColumnDef="UserRegDate">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>
+          Kayıt Tarihi
+        </mat-header-cell>
+        <mat-cell *matCellDef="let entry"> {{entry.UserInfo.UserRegDate}}</mat-cell>
+      </ng-container>
+      <ng-container  matColumnDef="UserEstateAmount">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>
+          ilan sayısı
+        </mat-header-cell>
+        <mat-cell *matCellDef="let entry"> {{entry.UserInfo.UserEstateAmount}}</mat-cell>
+      </ng-container>
+  </ng-container>
+  <ng-container matColumnDef="islemler">
+    <mat-header-cell *matHeaderCellDef>   İşlemler
+    </mat-header-cell>
+      <mat-cell *matCellDef="let entry">
+        <button mat-icon-button matTooltip="Bu kullanıcıyı bu konuttan kaldır"  (click)="del(entry)">
+          <mat-icon aria-label="label" color="warn">delete</mat-icon>
+        </button>
+      </mat-cell>
+  </ng-container>
+
+<mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+<mat-row *matRowDef="let row; columns: displayedColumns"></mat-row>
+
+
+</mat-table>
+
+<mat-paginator [pageSizeOptions]="[10,15,20,100]" showFirstLastButtons></mat-paginator>
+
+</div>

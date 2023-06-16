@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Bridge">
+    <Key>
+      <PropertyRef Name="BridgeId" />
+    </Key>
+    <Property Name="BridgeId" Type="int" Nullable="false" />
+    <Property Name="BridgeSubjectId" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="BridgeStudentId" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="StudentId" />
+    </Key>
+    <Property Name="StudentId" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="StudentNo" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="StudentFullName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="StudentBirthDate" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Subject">
+    <Key>
+      <PropertyRef Name="SubjectId" />
+    </Key>
+    <Property Name="SubjectId" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="SubjectCode " Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="SubjectName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="SubjectCredit" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Bridge_ToStudent">
+    <End Role="Student" Type="Self.Student" Multiplicity="1" />
+    <End Role="Bridge" Type="Self.Bridge" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="StudentId" />
+      </Principal>
+      <Dependent Role="Bridge">
+        <PropertyRef Name="BridgeStudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Bridge_ToSubject">
+    <End Role="Subject" Type="Self.Subject" Multiplicity="1" />
+    <End Role="Bridge" Type="Self.Bridge" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subject">
+        <PropertyRef Name="SubjectId" />
+      </Principal>
+      <Dependent Role="Bridge">
+        <PropertyRef Name="BridgeSubjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DBModelStoreContainer">
+    <EntitySet Name="Bridge" EntityType="Self.Bridge" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Student" EntityType="Self.Student" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Subject" EntityType="Self.Subject" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Bridge_ToStudent" Association="Self.FK_Bridge_ToStudent">
+      <End Role="Student" EntitySet="Student" />
+      <End Role="Bridge" EntitySet="Bridge" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Bridge_ToSubject" Association="Self.FK_Bridge_ToSubject">
+      <End Role="Subject" EntitySet="Subject" />
+      <End Role="Bridge" EntitySet="Bridge" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

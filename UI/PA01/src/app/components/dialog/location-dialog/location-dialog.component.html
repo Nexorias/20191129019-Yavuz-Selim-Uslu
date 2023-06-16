@@ -1,0 +1,14 @@
+<mat-toolbar  class="mat-elevation-z6 true">
+  <span>{{dialogHeader}}</span>
+</mat-toolbar>
+<div class="container">
+<form [formGroup]="form">
+  <mat-form-field appearance="outline">
+    <mat-label>Bölge ismi</mat-label>
+    <input matInput placeholder="LocationName" name="LocationName" formControlName="LocationName" required type="text">
+  </mat-form-field>
+</form>
+
+<button mat-raised-button class="true" (click)="DialogRef.close(form.value)" [disabled]="form.invalid">kaydet</button>&nbsp;
+<button mat-raised-button class="false" (click)="DialogRef.close()">iptal</button>
+</div>

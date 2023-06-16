@@ -1,0 +1,101 @@
+<div class="container">
+<h1>Konuk Listesi</h1>
+<div>
+  <mat-form-field appearance="outline" style="width:100%;">
+    <input matInput placeholder="Aranacak Değer Giriniz" (keyup)="filter($event)">
+  </mat-form-field>
+</div>
+
+<div>
+  <button mat-fab class="true"  matTooltip = "geri dön" [routerLink]="['/admin']">
+    <mat-icon aria-label="label">arrow_back</mat-icon>
+    </button>
+    &nbsp;
+
+  <button mat-fab matTooltip="Konuk Ekle" class="true" (click)="add()" >
+    <mat-icon class="mat-18" >add</mat-icon>
+</button>
+</div>
+
+<p>&nbsp;</p>
+<mat-table [dataSource]="dataSource" class="mat-elevation-z4" matSort>
+  <ng-container  matColumnDef="EstateIMG1" >
+    <mat-header-cell *matHeaderCellDef mat-sort-header>
+      Resim
+    </mat-header-cell>
+    <mat-cell *matCellDef="let entry">
+
+      <img [src]="this.API.siteURL+'/media/'+entry.EstateIMG1" style="width:50px;" (click)="UpdateFoto(entry)"/>
+
+    </mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="EstateName">
+    <mat-header-cell *matHeaderCellDef mat-sort-header > Konut ismi
+    </mat-header-cell>
+    <mat-cell *matCellDef="let entry"  > {{entry.EstateName}} </mat-cell>
+  </ng-container>
+  <ng-container matColumnDef="EstateAdress">
+    <mat-header-cell *matHeaderCellDef mat-sort-header> Adres
+    </mat-header-cell>
+      <mat-cell *matCellDef="let entry">{{entry.EstateAdress}}</mat-cell>
+  </ng-container>
+  <ng-container matColumnDef="EstateLocation">
+    <mat-header-cell *matHeaderCellDef mat-sort-header> Bölge
+    </mat-header-cell>
+      <mat-cell *matCellDef="let entry">{{entry.EstateLocationId}}</mat-cell>
+  </ng-container>
+  <ng-container matColumnDef="IsActive">
+    <mat-header-cell *matHeaderCellDef mat-sort-header> Listeleme
+    </mat-header-cell>
+  <mat-cell *matCellDef="let entry" >
+    <ng-container *ngIf="entry.IsActive === '1'; else notactive">
+      <p class="active"><p><span class="discount">Aktif</span></p>
+    </ng-container>
+
+    <ng-template #notactive>
+      <p class="notactive"><b><span class="nodiscount">AKTIF DEĞİL</span></b></p>
+    </ng-template>
+  </mat-cell>
+</ng-container>
+
+  <ng-container matColumnDef="EstatePrice">
+    <mat-header-cell *matHeaderCellDef mat-sort-header> Ücret
+    </mat-header-cell>
+
+    <mat-cell *matCellDef="let entry" >
+      <ng-container *ngIf="entry.IsDiscount === '1'; else nodisc">
+        <p class="discount"><s><span class="nodiscount" >{{entry.EstatePrice}} TL</span></s>&nbsp; <p><span class="discount">{{entry.DiscountPrice}} TL</span></p>
+      </ng-container>
+
+      <ng-template #nodisc>
+        <p class="nodiscount"><b>{{entry.EstatePrice}} TL</b></p>
+      </ng-template>
+    </mat-cell>
+
+  </ng-container>
+  <ng-container matColumnDef="islemler">
+    <mat-header-cell *matHeaderCellDef > islemler
+    </mat-header-cell>
+    <mat-cell *matCellDef="let entry">
+      <button mat-icon-button class="edit" matTooltip="Listele" [routerLink]="['/listeusers',entry.EstateId]">
+        <mat-icon aria-label="label">person</mat-icon>
+      </button>
+
+      <button mat-icon-button  class="nodiscount" matTooltip="Düzenle" (click)="edit(entry)">
+        <mat-icon aria-label="label">edit</mat-icon>
+      </button>
+      <button mat-icon-button color="warn" matTooltip="Sil" (click)="del(entry)">
+        <mat-icon aria-label="label">delete</mat-icon>
+      </button>
+
+
+    </mat-cell>
+  </ng-container>
+
+
+  <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+  <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+</mat-table>
+<mat-paginator [pageSizeOptions]="[5,10,15,20,50,100]" showFirstLastButtons></mat-paginator>
+</div>

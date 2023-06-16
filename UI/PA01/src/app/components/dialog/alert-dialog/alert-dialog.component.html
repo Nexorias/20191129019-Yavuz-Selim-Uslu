@@ -1,0 +1,12 @@
+
+<mat-toolbar [class]="dialogAction ? 'true' : 'false'" class="mat-elevazation-z8">
+<span>{{dialogTitle}}</span>
+</mat-toolbar>
+
+<div class="container">
+  {{dialogMSG}}
+</div>
+<p>&nbsp;</p>
+&nbsp;&nbsp;&nbsp;<button mat-raised-button   [class]="dialogAction ? 'true' : 'false'" (click)="dialogRef.close()">Kapat</button>
+<p>&nbsp;</p>
+

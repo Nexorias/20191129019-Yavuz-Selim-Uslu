@@ -1,0 +1,71 @@
+<div class="container "  style="display: flex; align-items: center; justify-content: center;">
+  <h1>
+    {{SavedEstate.EstateName}}
+  </h1>
+</div>
+<div class="container" style="display: flex;">
+<section class="gallery" >
+  <div class="gallery__item" >
+    <input type="radio" id="img-1" checked name="gallery" class="gallery__selector"/>
+    <img class="gallery__img"  [src]="this.API.siteURL+'/media/'+SavedEstate.EstateIMG1" alt=""/>
+    <label for="img-1" class="gallery__thumb"><img [src]="this.API.siteURL+'/media/'+SavedEstate.EstateIMG1" alt=""/></label>
+  </div>
+  <div class="gallery__item">
+    <input type="radio" id="img-2" name="gallery" class="gallery__selector"/>
+    <img class="gallery__img" [src]="this.API.siteURL+'/media/'+SavedEstate.EstateIMG2"  alt=""/>
+    <label for="img-2" class="gallery__thumb"><img [src]="this.API.siteURL+'/media/'+SavedEstate.EstateIMG2" alt=""/></label>
+  </div>
+  <div class="gallery__item">
+    <input type="radio" id="img-3" name="gallery" class="gallery__selector"/>
+    <img class="gallery__img" [src]="this.API.siteURL+'/media/'+SavedEstate.EstateIMG3"  alt=""/>
+    <label for="img-3" class="gallery__thumb"><img [src]="this.API.siteURL+'/media/'+SavedEstate.EstateIMG3" alt=""/></label>
+  </div>
+  <div class="gallery__item">
+    <input type="radio" id="img-4" name="gallery" class="gallery__selector"/>
+    <img class="gallery__img" [src]="this.API.siteURL+'/media/'+SavedEstate.EstateIMG1"  alt=""/>
+    <label for="img-4" class="gallery__thumb"><img [src]="this.API.siteURL+'/media/'+SavedEstate.EstateIMG4" alt=""/></label>
+  </div>
+</section>
+<div style="margin-right: 90px;">
+  <h4>
+    <b>Konut Id:</b> {{SavedEstate.EstateId}}
+  </h4>
+
+    <h3><b>Konut Fiyat:</b></h3>
+    <a>
+      <ng-container *ngIf="SavedEstate.IsDiscount === '1'; else notAdmin">
+
+        <p class="discount"><h2> <s><span class="nodiscount" >{{SavedEstate.EstatePrice}} TL</span></s> <p><span class="discount">{{SavedEstate.DiscountPrice}} TL</span></p></h2>
+      </ng-container>
+
+      <ng-template #notAdmin>
+        <p class="nodiscount"><b>{{SavedEstate.EstatePrice}} TL</b></p>
+      </ng-template>
+
+    </a>
+    <a>
+      <h3>
+        <b>Bölge:</b> {{SavedEstate.EstateLocationId}}
+      </h3>
+    </a>
+  <a>
+    <h4>
+      <b>Konut Adresi:</b> {{SavedEstate.EstateAdress}}
+    </h4>
+  </a>
+  <a>
+    <h4>
+      <b>Konut Açıklaması:</b> {{SavedEstate.EstateDescription}}
+    </h4>
+  </a>
+  <a>
+    <h5>
+      <b style="opacity: 75%;">Konut Kayıt Tarihi:</b> {{SavedEstate.EstateRegDate}}
+    </h5>
+    <h5>
+      <b style="opacity: 75%;">Konut Düzenlenme Tarihi:</b> {{SavedEstate.EstateEditDate}}
+    </h5>
+  </a>
+</div>
+
+</div>

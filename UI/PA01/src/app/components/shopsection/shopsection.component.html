@@ -1,0 +1,100 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+
+
+
+
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h1 class="w3-border-bottom w3-border-light-grey w3-padding-16" style="display: flex; align-items: center; justify-content: center;">Konutlarımız</h1>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom" *ngFor="let estate of EstateList">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding" >{{ estate.EstateName }}</div>
+        <img  [src]="this.API.siteURL+'/media/'+estate.EstateIMG1"  alt="House" style="width:100%">
+        <button mat-icon-button class="w3-col l3 m6 w3-margin-bottom" [routerLink]="['/estatedetails',estate.EstateId]"  matTooltip="Detaylar için tıklayın"> Detaylar</button>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+<!-- End page content -->
+</div>
+
+<footer class="footer-distributed">
+
+      <div class="footer-left">
+
+        <h3>Murat <span>Emlak</span></h3>
+
+        <p class="footer-links">
+
+          <a href="#Anasayfa">Anasayfa</a>
+
+          <a href="#Userpage">Kullanıcı Profili</a>
+
+          <a href="#">Konutlar</a>
+
+
+        </p>
+
+        <p class="footer-company-name">© Murat Emlak 2023</p>
+      </div>
+
+      <div class="footer-center">
+
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>1252 Sokak</span> Muratpaşa Kepez Mahalle, Antalya</p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+90 512 345 67 89</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:THISISNOTAREALMAIL!@FAKE.com">notreal@emlak.com</a></p>
+        </div>
+
+      </div>
+
+      <div class="footer-right">
+
+        <p class="footer-company-about">
+          <span>Murat Emlak Hakkında</span>
+          1453 Istanbul'un fethi ile işe başladık ve o zamandan beri ev satıyoruz büyük dedem Fatih Sultan Mehmet'e ev satmış
+        </p>
+
+
+
+      </div>
+
+    </footer>
+
+</body>
+
+</html>

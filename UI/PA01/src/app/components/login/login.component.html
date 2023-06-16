@@ -1,0 +1,15 @@
+<div class="container">
+  <h2>Oturum Aç</h2>
+  <p>&nbsp;</p>
+  <mat-form-field appearance="outline" style="width:50%;">
+    <mat-label>E-mail</mat-label>
+    <input matInput placeholder="Kullanıcı Mail" type="text" #mail>
+  </mat-form-field>
+  <p></p>
+  <mat-form-field appearance="outline" style="width:50%;">
+    <mat-label>Şifre</mat-label>
+    <input matInput placeholder="Kullanıcı Şifre" type="password" #pass>
+  </mat-form-field>
+  <p></p>
+  <button mat-raised-button class="btncolor" (click)="login(mail.value,pass.value)">Giriş Yapın</button>
+</div>

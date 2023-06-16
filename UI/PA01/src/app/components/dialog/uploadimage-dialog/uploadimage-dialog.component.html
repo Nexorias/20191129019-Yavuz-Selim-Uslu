@@ -1,0 +1,19 @@
+<mat-toolbar class="mat-elevazation-z6 true">
+<span>Resim Güncelle</span>
+</mat-toolbar>
+<div class="container">
+<div *ngIf="this.SelectedUser">
+  <h3><b>Mail:</b> {{this.SelectedUser.UserMail}} <p></p> <b>Kullanıcı ismi:</b> {{this.SelectedUser.UserFullName}} </h3>
+  <img [src]="this.API.siteURL+'/media/'+this.SelectedUser.UserProfileIMG" style="width:200px;" (click)="img.click()">
+
+</div>
+  <input type="file" #img [hidden]="true" onclick="this.value=null"  (change)="PicImage($event)">
+
+<img [src]="this.SelectedImage" *ngIf="this.SelectedImage" style="width:200px;" />
+<p></p>
+<button mat-raised-button color="secondary"(click)="img.click()">Resim Seç</button>&nbsp;
+<button mat-raised-button  class="true" (click)="imgDialogRef.close(this.UserImg)">Kaydet</button>&nbsp;
+<button mat-raised-button color="Warn" (click)="imgDialogRef.close()">İptal</button>
+
+
+</div>

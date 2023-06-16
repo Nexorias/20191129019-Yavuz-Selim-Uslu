@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DBModel3StoreContainer" CdmEntityContainer="DBEntities3">
+    <EntitySetMapping Name="Banner">
+      <EntityTypeMapping TypeName="DBModel3.Banner">
+        <MappingFragment StoreEntitySet="Banner">
+          <ScalarProperty Name="BannerId" ColumnName="BannerId" />
+          <ScalarProperty Name="BannerEstateId" ColumnName="BannerEstateId" />
+          <ScalarProperty Name="BannerUserId" ColumnName="BannerUserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Estate">
+      <EntityTypeMapping TypeName="DBModel3.Estate">
+        <MappingFragment StoreEntitySet="Estate">
+          <ScalarProperty Name="EstateId" ColumnName="EstateId" />
+          <ScalarProperty Name="EstateName" ColumnName="EstateName" />
+          <ScalarProperty Name="EstatePrice" ColumnName="EstatePrice" />
+          <ScalarProperty Name="DiscountPrice" ColumnName="DiscountPrice" />
+          <ScalarProperty Name="Clicks" ColumnName="Clicks" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="IsDiscount" ColumnName="IsDiscount" />
+          <ScalarProperty Name="EstateAdress" ColumnName="EstateAdress" />
+          <ScalarProperty Name="EstateDescription" ColumnName="EstateDescription" />
+          <ScalarProperty Name="EstateLocationId" ColumnName="EstateLocationId" />
+          <ScalarProperty Name="ProductRegDate" ColumnName="ProductRegDate" />
+          <ScalarProperty Name="ProductEditDate" ColumnName="ProductEditDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User">
+      <EntityTypeMapping TypeName="DBModel3.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserFullName" ColumnName="UserFullName" />
+          <ScalarProperty Name="UserIsAdmin" ColumnName="UserIsAdmin" />
+          <ScalarProperty Name="UserRegDate" ColumnName="UserRegDate" />
+          <ScalarProperty Name="UserMail" ColumnName="UserMail" />
+          <ScalarProperty Name="UserPassword" ColumnName="UserPassword" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

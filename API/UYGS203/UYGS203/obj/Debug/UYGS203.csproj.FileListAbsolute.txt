@@ -1,0 +1,454 @@
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\UYGS203.dll.config
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\UYGS203.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\UYGS203.pdb
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\csc.exe
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\csc.exe.config
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\csc.rsp
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\csi.exe
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\csi.exe.config
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\csi.rsp
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\System.AppContext.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\System.Console.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\System.IO.Compression.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\System.Net.Http.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\System.Net.Sockets.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\System.ValueTuple.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\System.Xml.XPath.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\vbc.exe
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\vbc.exe.config
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\vbc.rsp
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\VBCSCompiler.exe
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\EntityFramework.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\EntityFramework.SqlServer.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\Newtonsoft.Json.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\System.Net.Http.Formatting.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\System.Web.Http.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\System.Web.Http.WebHost.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\EntityFramework.xml
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\EntityFramework.SqlServer.xml
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\Newtonsoft.Json.xml
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\System.Net.Http.Formatting.xml
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\System.Web.Http.xml
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\System.Web.Http.WebHost.xml
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\source\repos\UYGS203\UYGS203\obj\Debug\UYGS203.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\UYGS203\UYGS203\obj\Debug\UYGS203.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\UYGS203\UYGS203\obj\Debug\UYGS203.csproj.CopyComplete
+C:\Users\user\source\repos\UYGS203\UYGS203\obj\Debug\UYGS203.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\obj\Debug\UYGS203.pdb
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\Swashbuckle.Core.dll
+C:\Users\user\source\repos\UYGS203\UYGS203\bin\WebActivatorEx.dll
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\obj\Debug\UYGS203.csproj.AssemblyReference.cache
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\obj\Debug\UYGS203.csproj.CoreCompileInputs.cache
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\obj\Debug\UYGS203.dll
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\obj\Debug\UYGS203.pdb
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\UYGS203.dll.config
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\UYGS203.dll
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\UYGS203.pdb
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\csc.exe
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\csc.exe.config
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\csc.rsp
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\csi.exe
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\csi.exe.config
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\csi.rsp
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\System.Buffers.dll
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\System.Memory.dll
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\vbc.exe
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\vbc.exe.config
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\vbc.rsp
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\VBCSCompiler.exe
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\EntityFramework.dll
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\EntityFramework.SqlServer.dll
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\Newtonsoft.Json.dll
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\Swashbuckle.Core.dll
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\System.Net.Http.Formatting.dll
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\System.Web.Cors.dll
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\System.Web.Http.Cors.dll
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\System.Web.Http.dll
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\System.Web.Http.WebHost.dll
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\WebActivatorEx.dll
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\EntityFramework.xml
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\EntityFramework.SqlServer.xml
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\Newtonsoft.Json.xml
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\System.Net.Http.Formatting.xml
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\System.Web.Http.xml
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\System.Web.Http.Cors.xml
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\System.Web.Http.WebHost.xml
+C:\Users\yavuz\Documents\vscode\test\20191129019-2023-Vize-master\20191129019-2023-Vize-master\UYGS203\UYGS203\obj\Debug\UYGS203.csproj.CopyComplete
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\UYGS203.dll.config
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\UYGS203.dll
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\UYGS203.pdb
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\csc.exe
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\csc.exe.config
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\csc.rsp
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\csi.exe
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\csi.exe.config
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\csi.rsp
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\System.Buffers.dll
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\System.Memory.dll
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\vbc.exe
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\vbc.exe.config
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\vbc.rsp
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\VBCSCompiler.exe
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\EntityFramework.dll
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\EntityFramework.SqlServer.dll
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\Newtonsoft.Json.dll
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\Swashbuckle.Core.dll
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\System.Net.Http.Formatting.dll
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\System.Web.Cors.dll
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\System.Web.Http.Cors.dll
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\System.Web.Http.dll
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\System.Web.Http.WebHost.dll
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\WebActivatorEx.dll
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\EntityFramework.xml
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\EntityFramework.SqlServer.xml
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\Newtonsoft.Json.xml
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\System.Net.Http.Formatting.xml
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\System.Web.Http.xml
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\System.Web.Http.Cors.xml
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\System.Web.Http.WebHost.xml
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\obj\Debug\UYGS203.csproj.AssemblyReference.cache
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\obj\Debug\UYGS203.csproj.CoreCompileInputs.cache
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\obj\Debug\UYGS203.csproj.CopyComplete
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\obj\Debug\UYGS203.dll
+C:\Users\yavuz\Documents\vscode\backup working API\with CORS\20191129019-2023-Vize-master\UYGS203\UYGS203\obj\Debug\UYGS203.pdb
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\UYGS203.dll.config
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\UYGS203.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\UYGS203.pdb
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\csc.exe
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\csc.exe.config
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\csc.rsp
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\csi.exe
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\csi.exe.config
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\csi.rsp
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\System.Buffers.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\System.Memory.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\vbc.exe
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\vbc.exe.config
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\vbc.rsp
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\VBCSCompiler.exe
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\EntityFramework.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\EntityFramework.SqlServer.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\Newtonsoft.Json.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\Swashbuckle.Core.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\System.Net.Http.Formatting.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\System.Web.Cors.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\System.Web.Http.Cors.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\System.Web.Http.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\System.Web.Http.WebHost.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\WebActivatorEx.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\EntityFramework.xml
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\EntityFramework.SqlServer.xml
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\Newtonsoft.Json.xml
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\System.Net.Http.Formatting.xml
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\System.Web.Http.xml
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\System.Web.Http.Cors.xml
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\bin\System.Web.Http.WebHost.xml
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\obj\Debug\UYGS203.csproj.AssemblyReference.cache
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\obj\Debug\UYGS203.csproj.CoreCompileInputs.cache
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\obj\Debug\UYGS203.csproj.CopyComplete
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\obj\Debug\UYGS203.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Before New DB\20191129019-2023-Vize-master\UYGS203\UYGS203\obj\Debug\UYGS203.pdb
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\UYGS203.dll.config
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\UYGS203.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\UYGS203.pdb
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\roslyn\csc.exe
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\roslyn\csc.exe.config
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\roslyn\csc.rsp
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\roslyn\csi.exe
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\roslyn\csi.exe.config
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\roslyn\csi.rsp
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\roslyn\System.Buffers.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\roslyn\System.Memory.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\roslyn\vbc.exe
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\roslyn\vbc.exe.config
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\roslyn\vbc.rsp
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\roslyn\VBCSCompiler.exe
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\EntityFramework.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\EntityFramework.SqlServer.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\Newtonsoft.Json.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\Swashbuckle.Core.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\System.Net.Http.Formatting.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\System.Web.Cors.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\System.Web.Http.Cors.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\System.Web.Http.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\System.Web.Http.WebHost.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\WebActivatorEx.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\EntityFramework.xml
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\EntityFramework.SqlServer.xml
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\Newtonsoft.Json.xml
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\System.Net.Http.Formatting.xml
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\System.Web.Http.xml
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\System.Web.Http.Cors.xml
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\bin\System.Web.Http.WebHost.xml
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\obj\Debug\UYGS203.csproj.AssemblyReference.cache
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\obj\Debug\UYGS203.csproj.CoreCompileInputs.cache
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\obj\Debug\UYGS203.csproj.CopyComplete
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\obj\Debug\UYGS203.dll
+C:\Users\yavuz\Documents\vscode\backup working API\Current\UYGS203\UYGS203\obj\Debug\UYGS203.pdb
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\UYGS203.dll.config
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\UYGS203.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\UYGS203.pdb
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\roslyn\csc.exe
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\roslyn\csc.exe.config
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\roslyn\csc.rsp
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\roslyn\csi.exe
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\roslyn\csi.exe.config
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\roslyn\csi.rsp
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\roslyn\System.Buffers.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\roslyn\System.Memory.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\roslyn\vbc.exe
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\roslyn\vbc.exe.config
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\roslyn\vbc.rsp
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\roslyn\VBCSCompiler.exe
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\EntityFramework.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\EntityFramework.SqlServer.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\Microsoft.Owin.Cors.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\Microsoft.Owin.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\Microsoft.Owin.Security.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\Newtonsoft.Json.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\Owin.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\Swashbuckle.Core.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\System.Net.Http.Formatting.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\System.Web.Cors.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\System.Web.Http.Cors.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\System.Web.Http.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\System.Web.Http.Owin.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\System.Web.Http.WebHost.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\WebActivatorEx.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\EntityFramework.xml
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\EntityFramework.SqlServer.xml
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\Microsoft.Owin.xml
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\Microsoft.Owin.Cors.xml
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\Microsoft.Owin.Security.xml
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\Newtonsoft.Json.xml
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\System.Net.Http.Formatting.xml
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\System.Web.Http.xml
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\System.Web.Http.Cors.xml
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\System.Web.Http.Owin.xml
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\bin\System.Web.Http.WebHost.xml
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\obj\Debug\UYGS203.csproj.CoreCompileInputs.cache
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\obj\Debug\UYGS203.csproj.CopyComplete
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\obj\Debug\UYGS203.dll
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\obj\Debug\UYGS203.pdb
+C:\Users\yavuz\Documents\vscode\backup working API\backup before kategori addition\Current\UYGS203\UYGS203\obj\Debug\UYGS203.csproj.AssemblyReference.cache
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\UYGS203.dll.config
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\UYGS203.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\UYGS203.pdb
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\roslyn\csc.exe
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\roslyn\csc.exe.config
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\roslyn\csc.rsp
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\roslyn\csi.exe
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\roslyn\csi.exe.config
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\roslyn\csi.rsp
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\roslyn\System.Buffers.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\roslyn\System.Memory.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\roslyn\vbc.exe
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\roslyn\vbc.exe.config
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\roslyn\vbc.rsp
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\roslyn\VBCSCompiler.exe
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\EntityFramework.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\EntityFramework.SqlServer.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\Microsoft.Owin.Cors.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\Microsoft.Owin.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\Microsoft.Owin.Security.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\Newtonsoft.Json.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\Owin.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\Swashbuckle.Core.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\System.Net.Http.Formatting.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\System.Web.Cors.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\System.Web.Http.Cors.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\System.Web.Http.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\System.Web.Http.Owin.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\System.Web.Http.WebHost.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\WebActivatorEx.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\EntityFramework.xml
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\EntityFramework.SqlServer.xml
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\Microsoft.Owin.xml
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\Microsoft.Owin.Cors.xml
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\Microsoft.Owin.Security.xml
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\Newtonsoft.Json.xml
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\System.Net.Http.Formatting.xml
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\System.Web.Http.xml
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\System.Web.Http.Cors.xml
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\System.Web.Http.Owin.xml
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\bin\System.Web.Http.WebHost.xml
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\obj\Debug\UYGS203.csproj.AssemblyReference.cache
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\obj\Debug\UYGS203.csproj.CoreCompileInputs.cache
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\obj\Debug\UYGS203.csproj.CopyComplete
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\obj\Debug\UYGS203.dll
+C:\Users\yavuz\Documents\vscode\API - PA01\FinalVersion\UYGS203\UYGS203\obj\Debug\UYGS203.pdb
