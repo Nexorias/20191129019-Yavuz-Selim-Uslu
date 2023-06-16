@@ -4,6 +4,7 @@ ANGULAR - ANGULAR MATERIAL - ASP.NET WEB APPLICATION <p></p>
 Image Upload, Data Manipulation, Authorization, Token Key Protection, Angular Frontend - ASP.Net Web API backend.
 Cors Enabled. 
 
+https://www.youtube.com/watch?v=Ady2zpWknlQ&feature=youtu.be
 
 
 # DataModel
